@@ -1,2 +1,3 @@
-# learn_devops
 Learn DevOps
+
+*Deploy* an app:
