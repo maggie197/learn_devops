@@ -1,6 +1,6 @@
-##Learn DevOps
+## Learn DevOps
 
-###*Deploy* an app using _python flask_ :
+### *Deploy* an app using _python flask_ :
 1. Prepare Your App
 2. Choose a Hosting Platform
 
