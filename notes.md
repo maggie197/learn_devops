@@ -109,16 +109,13 @@ sudo apt install -y docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
-6. Build and Run the Docker Container
+6. Build and Run the Docker Container  
+   Navigate to the directory containing your Dockerfile and app
 ``` 
 sudo docker build -t python-app .
 sudo docker run -d -p 5000:5000 python-app
- ``` 
- 7. Run the Docker Container
-``` 
- sudo docker run -d -p 5000:5000 python-app
-``` 
-8. Add a security group 
+ ```
+7. Add a security group 
 * Go to Instances -> Security -> Security groups 
 * Edit inbound rule
 * Add rule: 
@@ -128,3 +125,7 @@ sudo docker run -d -p 5000:5000 python-app
     * Source type: Anywhere-IPv4
     * Source: 0.0.0.0/0
 * Save rules
+ 8. Run the Docker Container
+``` 
+ sudo docker run -d -p 5000:5000 python-app
+``` 
