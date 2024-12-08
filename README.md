@@ -15,13 +15,13 @@
 3. Connect to instance
 
 * Locate your private key file
-* Open terminal there
+* Open the terminal there
 * Connect to your instance using its Public DNS: **_ssh -i username@instance-public-ip your-key.pem_**  
 
-4. Clone repository from github
+4. Clone repository from GitHub
 
 * Go to the repository's main page on GitHub
-* Click Code and Copy url to clipboard
+* Click the Code and Copy URL to clipboard
 * Open terminal and type: **git clone _your-repository-url_**
 
 5. Install Python and Flask
@@ -33,7 +33,7 @@
 
 6. Run app
 
-* Locate python app file
+* Locate Python app file
 * FLASK_APP=app.py flask run --host=0.0.0.0 --port=5000 
 
 7. Add a security group 
