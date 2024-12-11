@@ -2,8 +2,8 @@
 
 ##  **Deploy** an app using <span style="color: blue;"> _**Docker**_ </span> on _Ubuntu_ :  
 1. Prepare Your App
-* Create Python file 
-* Create an docker file   
+* Create a Python file 
+* Create a docker file   
      Example:
 ```docker     
 # Use the official Python image from the Docker Hub
@@ -19,13 +19,13 @@ EXPOSE 5000
 # Define the command to run the app
 CMD ["python", "app.py"]
 ```
-2. Choose a Hosting Platform
-- Launch an instance 
+2. Choose a Hosting Platform (Example AWS)
+- Launch an virtual server (instance) 
     - Choose an AMI and Instance type
     - Create a key pair
     - Launch instance   
   
-3. Connect to instance
+3. Connect to virtual server
 * Navigate to the Directory with the your-key.pem File 
 * Open the Terminal
 * Connect to your instance using its Public DNS:  
