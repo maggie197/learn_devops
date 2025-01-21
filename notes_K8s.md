@@ -20,6 +20,10 @@ The need for a container orchestration tool
 
 Kubernetes (K8s) cluster is a set of nodes (physical or virtual machines) that run containerized applications. It is the fundamental unit of deployment in Kubernetes and provides a platform for managing and orchestrating containerized applications at scale. A Kubernetes cluster includes multiple components that work together to ensure the cluster's health, performance, and availability.
 
+## Node 
+
+Node is a physical or virtual machine in a Kubernetes cluster that runs applications in the form of Pods.
+
 ## Main K8s components 
   
   <table>
