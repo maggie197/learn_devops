@@ -24,6 +24,14 @@ Kubernetes (K8s) cluster is a set of nodes (physical or virtual machines) that r
 
 Node is a physical or virtual machine in a Kubernetes cluster that runs applications in the form of Pods.
 
+## Kubelet
+
+Kubelet is the primary node agent in Kubernetes that ensures containers in Pods are running as specified. It communicates with the control plane, manages container lifecycles via the container runtime, performs health checks, and reports node and Pod statuses.
+
+## Kube-proxy
+
+Kube-proxy is a Kubernetes component that runs on each node in a cluster and manages network traffic routing for services. It ensures that requests to Kubernetes services are correctly forwarded to the appropriate backend Pods, enabling communication within the cluster.
+
 ## Main K8s components 
   
   <table>
@@ -68,3 +76,11 @@ StatefulSet is a workload API object used to manage stateful applications. Unlik
 
 Stateful applications typically maintain state or data, such as databases (e.g., MySQL, PostgreSQL), messaging systems (e.g., Kafka), or any service that requires persistent storage or predictable network identity.
   ![image](https://github.com/user-attachments/assets/b7eb6fef-8b57-451e-9be0-892308cf0eb0)
+
+  ## Master node
+**Master node** in Kubernetes is the central control plane that manages the Kubernetes cluster. It is responsible for maintaining the desired state of the cluster, scheduling workloads, and coordinating communication between components.
+
+**Kubectl** command-line tool is used to interact with a Kubernetes cluster. It allows users to deploy applications, inspect and manage resources, and view cluster logs. It serves as the primary interface for developers and administrators to communicate with the Kubernetes API server.
+
+  ![image](https://github.com/user-attachments/assets/b84ae338-068e-4eeb-8aa1-06d2ca59ec74)
+
