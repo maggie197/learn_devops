@@ -4,6 +4,6 @@ DevOps is a set of practices that combine software development (Dev) and IT oper
 Learn how to use DevOps techniques with practical examples, such as setting up Kubernetes clusters and deploying applications. By showing real-world applications, understand how to manage and scale applications using tools like Kubernetes, automate deployments, and monitor your systems for smoother, faster delivery cycles.
 
 
-##  <span style="color: blue;">[**Deploy** an simple app](https://github.com/maggie197/learn_devops/blob/main/deploy_simple_app_on_aws.md)</span>
-
+##  [**Deploy** an simple app](https://github.com/maggie197/learn_devops/blob/main/deploy_simple_app_on_aws.md)
+##  [K8s explanation](https://github.com/maggie197/learn_devops/blob/main/notes_K8s.md)
 
